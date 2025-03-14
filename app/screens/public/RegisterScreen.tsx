@@ -74,7 +74,7 @@ function RegisterScreen() {
 
   return (
     <ScrollView contentContainerStyle={{ padding: 20 }} showsVerticalScrollIndicator={false}>
-
+<Text style={styles.title}>Registro</Text>
       <View style={styles.formGroup}>
         <Text style={styles.label}>Usuario</Text>
         <Controller
