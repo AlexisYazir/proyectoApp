@@ -6,5 +6,5 @@ export interface Product {
     categoria: string;
     marca: string;
     stock: number;
-    imagenes: string[];  // Ahora es un array de strings
+    imagenes: string[]; 
 }
