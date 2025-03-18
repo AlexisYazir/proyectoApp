@@ -10,8 +10,7 @@ type RootStackParamList = {
 export const HomeScreen = () => {
     const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
 
-    return (
-     
+    return (     
       <>
       <Banner/>
       </>
